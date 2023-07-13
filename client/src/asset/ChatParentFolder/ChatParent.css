@@ -1,0 +1,7 @@
+.AppGrid{display:grid;
+    grid-template-columns: 350px 380px auto;}
+
+
+@media (max-width: 800px) {
+    #chat-list-component{display: none;}
+}

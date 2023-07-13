@@ -1,0 +1,158 @@
+.chat-body-container{background-color: #FBF8F9;
+                     }
+
+.chatNav{background-color: rgb(243, 241, 241);
+      padding:27px 20px;
+      border:  1px solid lightgrey;
+      box-shadow:0 5px 5px white;
+
+}
+
+.image-behind-otherUserNameValue{padding:20px;
+                                 background-color: black;
+                                 color:white;
+                                 border-radius: 100%;
+                                 margin-right:10px;}
+
+#userIsTyping{color:#9DD9F3;}
+
+.scroll{width:95%;
+        margin: auto;
+        height:75vh;
+        background: #FBF8F9; 
+        padding:10px;
+        overflow: hidden; 
+        overflow-y:scroll;}
+.scroll::-webkit-scrollbar{
+      display: none;
+      background-color: #FBF8F9; 
+      scrollbar-color: #FBF8F9;
+}
+
+
+
+
+
+
+
+.fromOldListMessageData:nth-child(1){display: none}
+
+.toOldListMessageData:nth-child(1){display: none}
+
+
+.fromOldListMessageData{border-radius: 20px;
+      border: white;
+      padding: 20px 0;
+      background-color: #9DD9F3;
+      max-width:50%;
+      text-indent:10px;
+      color: white;
+      margin-left:auto;
+      margin-bottom: 20px;}
+
+
+.toOldListMessageData{border-radius: 20px;
+                      border: white;
+                      padding: 20px 0;
+                      background-color: whitesmoke;
+                        max-width:50%;
+                        text-indent:10px;
+                        color: black;
+                        margin-bottom: 20px;
+                  }   
+
+/*
+.fromListMessageData:last-child(1){display: none;}
+
+.toListMessageData:last-child(1){display: none}      
+
+*/
+
+
+
+
+
+
+
+
+
+
+.fromListMessageData{border-radius: 20px;
+                     border: white;
+                     padding: 20px 10px;
+                     background-color: #9DD9F3;
+                     max-width:400px;
+                     color: white;
+                     margin-left:auto;
+                     margin-bottom: 20px;
+                     word-wrap:break-word;
+                  }
+
+.toListMessageData{border-radius: 20px;
+                  border: white;
+                  padding: 20px 10px;
+                  background-color:#eeeeee;
+                  max-width:400px;
+                  color: black;
+                  margin-bottom: 20px;
+                  word-wrap:break-word;
+            }   
+
+
+
+.text-box-div{position: absolute;
+          bottom:0;
+          width:90%;
+          padding:0 5px;
+          margin:auto;}
+
+
+textarea{background-color: #FBF8F9;
+      padding:30px 0;
+      width:70.8%;
+      resize:none;
+      text-indent:10px;
+      border:  1px solid lightgrey;
+      box-shadow:0 10px 10px white;}
+
+.txt-btn{padding:20px;
+         border-radius: 100%;
+         font-size:40px;
+         color:white;
+         background: #9DD9F3;
+      
+         /*This is to make the send button stick to
+         the top right conner of the message box */
+         text-align: right;
+         position: absolute;   
+         bottom: 40px;
+         left:calc(55% - 10px);  
+      }
+
+
+
+
+@media (max-width: 767px) {
+
+      
+.text-box-div{
+      width:100%;
+      padding: 0px 0px;
+  }
+
+textarea{
+      background-color: #FBF8F9;
+      padding:30px 0;
+      width:98.7%;
+      resize:none;
+      text-indent:10px;
+      border:  1px solid lightgrey;
+      box-shadow:0 10px 10px white;   
+     }
+
+.txt-btn{
+      left:calc(80% - 10px);  
+   }
+
+
+}

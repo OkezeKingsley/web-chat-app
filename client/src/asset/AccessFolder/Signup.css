@@ -1,0 +1,112 @@
+*{margin:0;
+    padding:0;
+  font-family:sans-serif;}
+  
+body{background-color: #F5F5F5;
+       overflow: hidden;}
+  
+.signup-center{display:flex;
+               align-items:center;
+               text-align:center;
+               height:100vh;
+               margin:auto;
+               }
+  
+.signup-container{border: 5px solid white;
+                  border-radius:10px;
+                  width:20rem;
+                  margin:auto;
+                  background:white;
+                  padding-top: 20px;
+                  overflow:hidden;
+                  box-shadow:0 2px 20px lightgray;
+                  
+                  }
+  
+#signupFaUser{border:none;
+          border-radius: 100px;
+          padding:20px;
+          text-align: center;
+          position: fixed;
+          top: 140px;
+          left:calc(50% - 40px);
+        
+          width:35px;
+          height: 35px;
+          background-color: #9DD9F3;
+          color:white;
+          }
+  
+.label{text-align: left;
+       padding-left:25px;
+       padding-bottom: 10px;
+       opacity: 1;
+       font-size: 15.5px;}
+
+.signup-header{margin-top:40px;
+              margin-bottom:30px;
+              text-align: center;}
+  
+
+
+  
+.username-input{padding-top:18px;
+                  padding-bottom:18px;
+                  padding-left:20px;
+                  padding-right:20px;
+                  width:70%;
+                  background-color:#F0F0F0;
+                  border-radius: 5px;
+                  border:none;
+                  margin-bottom: 30px;
+                  font-size:20px;}
+
+
+.email-input{padding-top:18px;
+             padding-bottom:18px;
+             padding-left:20px;
+             padding-right:20px;
+             width:70%;
+             background-color:#F0F0F0;
+             border-radius: 5px;
+             border:none;
+             margin-bottom: 30px;
+             font-size:20px;}
+    
+
+
+  
+.password-input{padding-top:18px;
+                  padding-bottom:18px;
+                  padding-left:20px;
+                  padding-right:20px;
+                  width:70%;
+                  background-color:#F0F0F0;
+                  border-radius: 5px;
+                  border:none;
+                  margin-top:0px;
+                  margin-bottom: 30px;
+                  font-size:20px;}
+    
+
+
+
+.btn-container{margin-top:10px;
+                 margin-bottom:20px;
+                 }
+  
+.signup-cta{width:81%;
+            padding-top:18px;
+            padding-bottom:18px;  
+            margin-bottom:18px;
+            border-radius: 5px;
+            border:none;
+            font-size:18px;
+            background-color: #9DD9F3;
+            color:white;
+            
+            }
+  
+  .signup-cta:hover{cursor:pointer;}
+  
+  

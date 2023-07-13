@@ -1,0 +1,15 @@
+#settings-body-div{background-color:  #FBF8F9;;}
+
+.settings-container{width:90%;
+                    margin:auto;
+                    background-color:  #FBF8F9;;
+                    }
+
+@media(max-width:767px){
+    body{background-color:#FBF8F9;}
+
+    #settings-body-div{background-color: #FBF8F9;}
+    
+    .settings-container{background-color: #FBF8F9;
+                        }
+}

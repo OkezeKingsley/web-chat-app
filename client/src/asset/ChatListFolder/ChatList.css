@@ -1,0 +1,99 @@
+body{font-family:sans-serif;
+     overflow: hidden;
+     background-color: rgb(243, 241, 241);
+     }
+
+.chat-list-container{border: 1px solid lightgrey;
+                     box-shadow:0 10px 10px white;
+                     background-color: rgb(243, 241, 241);
+                     height:100vh;}
+
+.search-input-div{box-sizing: border-box;
+                 margin-bottom:0px;}
+
+.search-input-icon{width:5%;
+                   padding-left:10px;
+                   font-size: 20px;}
+.search-input{width:90%;
+              padding:20px 0;
+              text-indent:10px;
+              border:  1px solid lightgrey;
+              box-shadow:0 1px 1px white;
+              background: #FBF8F9;}
+
+
+.dis:active{display: none;}
+
+.scrollable-chat-list{width:95%;
+                      margin: auto;
+                      height:80vh;
+                      padding:10px;
+                      overflow: hidden; 
+                      overflow-y:auto;
+                      scrollbar-width: thin;
+                      }
+
+.scrollable-chat-list::-webkit-scrollbar{
+      width:10px;
+      background-color: rgb(243, 241, 241);
+      }
+    
+.scrollable-chat-list::-webkit-scrollbar-track{border-radius:5px;
+                  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+                }
+    
+.scrollable-chat-list::-webkit-scrollbar-thumb{border-radius:5px;
+                  background:rgb(161, 159, 159);}
+    
+
+.filterAndConversewithParentDiv{width:99%;
+                                margin:auto;
+  /*                              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                border-radius: 20px; */
+                                /*z-index:1;*/}
+.filtered-user{margin-top:0px;
+   margin-bottom:0px;     
+  padding-top:30px;
+   padding-bottom:30px;
+   border-bottom:1px dotted;}
+
+
+.conversation-list-paragraph{margin-top: 20px;
+                             margin-bottom:0px;}
+
+.conversedWithParentContainer{margin-top:10px;}
+
+
+.conversed-user{padding: 20px 0;
+           padding-top:30px;
+           padding-bottom:30px;     
+           border-bottom:  1px solid lightgrey;
+           margin-top:0px;
+           font-size:18px;
+           display: flex;
+           justify-content: space-between; }
+
+.filteredFlex{display: flex;}  
+
+.image-behind-filter-name{padding: 20px;
+   width: 50px;
+   background-color:  rgba(0, 0, 0, 0.712);
+   color: white;
+   margin-right:10px;
+   border-radius: 100%;}
+
+.filterName{display: grid;
+            place-items: center;
+            padding-left: 10px;
+            font-size:20px;}
+
+.image-behind-conversed-name{padding: 20px;
+                   background-color:  rgba(0, 0, 0, 0.712);
+                   color: white;
+                   margin-right:10px;
+                   border-radius: 100%;}
+
+
+.unreadMessageIcon{font-size:30px;
+                   color:#FF0800;
+                  }

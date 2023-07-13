@@ -1,0 +1,8 @@
+JOTTINGS OF SOME IMPORTANT THINGS ABOUT THE TOOLS USED IN THE PROJECTS
+
+The way socket io works is that you create certain events 
+and you name those events.
+
+Two basic things you do in socket io is that you listen to an
+event or you emit an event ("event" that is sending data to all the 
+clients connected to the server).

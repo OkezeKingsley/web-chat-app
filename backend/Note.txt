@@ -1,0 +1,8 @@
+ IMPORTANT NOTE: using bcrypt doesn't mean hackers wouldn't be
+    able to figure out the password from hashes through brute force
+    attack or something like that but it would provide some level of
+    protection and give you time to let your users know about the 
+    data bridge so that they can change their own password if they 
+    need to
+
+   
